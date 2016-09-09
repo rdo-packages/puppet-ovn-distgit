@@ -25,6 +25,23 @@
     },
     {
       "key": {
+        "uuid": "facab960_8909fa2e",
+        "filename": "puppet-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2016-09-09T15:41:41Z",
+      "side": 1,
+      "message": "also, I see the puppet-barbican review includes the upstream_version macro, it would be good to use it here too.",
+      "revId": "fd1150cf3e845a17aabd4853b57e4bd2be364ff7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_97175651",
         "filename": "puppet-ovn.spec",
         "patchSetId": 1
