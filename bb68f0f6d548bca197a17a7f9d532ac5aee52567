@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_2948ee5a",
+        "filename": "puppet-ovn.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 87
+      },
+      "writtenOn": "2016-09-09T16:24:07Z",
+      "side": 1,
+      "message": "Insert on top:\n%{!?upstream_version: %global upstream_version %{version}%{?milestone}}",
+      "revId": "bb68f0f6d548bca197a17a7f9d532ac5aee52567",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_094b2a5a",
+        "filename": "puppet-ovn.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 87
+      },
+      "writtenOn": "2016-09-09T16:24:07Z",
+      "side": 1,
+      "message": "s/version/upstream_version/",
+      "range": {
+        "startLine": 20,
+        "startChar": 12,
+        "endLine": 20,
+        "endChar": 13
+      },
+      "revId": "bb68f0f6d548bca197a17a7f9d532ac5aee52567",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
