@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_a925deac",
+        "filename": "puppet-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 61
+      },
+      "writtenOn": "2016-09-09T16:00:43Z",
+      "side": 1,
+      "message": "Blearg, I must have copied the wrong file into this repo, I\u0027ll fix that, thanks",
+      "parentUuid": "facab960_571dce72",
+      "range": {
+        "startLine": 1,
+        "startChar": 23,
+        "endLine": 1,
+        "endChar": 39
+      },
+      "revId": "fd1150cf3e845a17aabd4853b57e4bd2be364ff7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_8909fa2e",
         "filename": "puppet-ovn.spec",
         "patchSetId": 1
@@ -36,6 +60,24 @@
       "writtenOn": "2016-09-09T15:41:41Z",
       "side": 1,
       "message": "also, I see the puppet-barbican review includes the upstream_version macro, it would be good to use it here too.",
+      "revId": "fd1150cf3e845a17aabd4853b57e4bd2be364ff7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_e93606e7",
+        "filename": "puppet-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 61
+      },
+      "writtenOn": "2016-09-09T16:00:43Z",
+      "side": 1,
+      "message": "This is an open question. I was asked to add it to both spec, however no other puppet spec that I see for RDO has it, so I am not sure why we want to have it in these and not everywhere?  If the answer is \u0027the rest need to be fixed\u0027, then fine, otherwise, it seems to me they should be consistent, and the precedent is currently no upstream_version, just version",
+      "parentUuid": "facab960_8909fa2e",
       "revId": "fd1150cf3e845a17aabd4853b57e4bd2be364ff7",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
