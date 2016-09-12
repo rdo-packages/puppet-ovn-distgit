@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_ccc31089",
+        "filename": "puppet-ovn.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2016-09-12T13:08:16Z",
+      "side": 1,
+      "message": "Whitespace. Sorry :(",
+      "revId": "186d94b356bcacd75bb95b2311bd2b6a46208c2c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
