@@ -1,7 +1,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-ovn
-Version:                9.2.0
+Version:                9.3.0
 Release:                1%{?dist}
 Summary:                Puppet module to setup ovn-northd and ovn-controller
 License:                Apache-2.0
@@ -43,6 +43,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ovn/
 
 
 %changelog
+* Thu Sep 22 2016 Haikel Guemar <hguemar@fedoraproject.org> 9.3.0-1
+- Update to 9.3.0
+
 * Fri Sep 16 2016 Haikel Guemar <hguemar@fedoraproject.org> 9.2.0-1
 - Update to 9.2.0
 
