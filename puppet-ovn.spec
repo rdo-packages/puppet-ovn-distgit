@@ -53,3 +53,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ovn/
 - Update to 9.2.0
 
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/puppet-ovn/commit/?id=5f13128b308f754d6d5ae20c3929ef1fe8e4085d
