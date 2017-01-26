@@ -1,5 +1,5 @@
-# UUID          Group Name
-False 	Non-Interactive Users
-653aa4f1b1cb88ad375aa26eeaf7b45ad4cdd8a0       	puppet/puppet-ovn-distgit-core
-166226602c259873300f7ea06fdf11fe5d45c43e        	puppet/puppet-ovn-distgit-ptl
-global:Registered-Users		Registered Users
+# UUID                                  	Group Name
+#
+166226602c259873300f7ea06fdf11fe5d45c43e	puppet/puppet-ovn-distgit-ptl
+653aa4f1b1cb88ad375aa26eeaf7b45ad4cdd8a0	puppet/puppet-ovn-distgit-core
+global:Registered-Users                 	Registered Users
