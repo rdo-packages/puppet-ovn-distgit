@@ -4,7 +4,7 @@ Name:                   puppet-ovn
 Version:                XXX
 Release:                XXX
 Summary:                Puppet module to setup ovn-northd and ovn-controller
-License:                Apache-2.0
+License:                ASL 2.0
 
 URL:                    https://launchpad.net/puppet-ovn
 
