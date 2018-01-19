@@ -1,7 +1,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-ovn
-Version:                11.3.1
+Version:                11.4.0
 Release:                1%{?dist}
 Summary:                Puppet module to setup ovn-northd and ovn-controller
 License:                ASL 2.0
@@ -43,6 +43,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ovn/
 
 
 %changelog
+* Fri Jan 19 2018 RDO <dev@lists.rdoproject.org> 11.4.0-1
+- Update to 11.4.0
+
 * Fri Dec 01 2017 RDO <dev@lists.rdoproject.org> 11.3.1-1
 - Update to 11.3.1
 
