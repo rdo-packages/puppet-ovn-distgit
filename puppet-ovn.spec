@@ -47,4 +47,3 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ovn/
 - Update to 15.4.0
 
 
-
