@@ -62,3 +62,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ovn/
 %changelog
 
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-ovn/commit/3c80ff104029ab2464275a131050addd3ed4eeb7
