@@ -1,10 +1,10 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0xf8675126e2411e7748dd46662fc2093e4682645f
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-ovn
-Version:                XXX
-Release:                XXX
+Version:                24.0.0
+Release:                1%{?dist}
 Summary:                Puppet module to setup ovn-northd and ovn-controller
 License:                ASL 2.0
 
@@ -60,5 +60,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ovn/
 
 
 %changelog
+* Thu Apr 18 2024 RDO <dev@lists.rdoproject.org> 24.0.0-1
+- Update to 24.0.0
+
 
 
