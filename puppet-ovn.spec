@@ -26,6 +26,7 @@ BuildRequires:  openstack-macros
 %endif
 
 Requires:               puppet-stdlib
+Requires:               puppet-vswitch
 Requires:               puppet >= 2.7.0
 
 %description
