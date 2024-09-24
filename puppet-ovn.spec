@@ -3,7 +3,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-ovn
-Version:                18.6.0
+Version:                18.6.1
 Release:                1%{?dist}
 Summary:                Puppet module to setup ovn-northd and ovn-controller
 License:                ASL 2.0
