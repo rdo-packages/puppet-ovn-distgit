@@ -70,4 +70,3 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ovn/
 - Update to 18.4.0
 
 
-
